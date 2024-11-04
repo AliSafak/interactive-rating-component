@@ -1,0 +1,140 @@
+body {
+    background-color: #131518;
+    font-family:"Overpass";
+    user-select: none;
+}
+
+.headerimg  {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.headerimg img {
+    background-color: #262E38;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    width: 327px;
+    margin-inline: auto;
+    background-color: #212832;
+    justify-items: center;
+    margin-block: 154px;
+    border-radius: 22.5px;
+    padding-inline: 24px;
+    padding-block: 24px 32px;
+}
+
+.ratingBtns {
+    max-width: 281px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingBtns button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background-color:#262E38 ;
+    cursor: pointer;
+    color:#7C8798 ;
+}
+
+.ratingBtns button:hover {
+    background-color: #FC7614;
+    color: #262E38;
+}
+
+
+/*HATAYI BURADA ALIYORUUM */
+.ratingBtnsActive {
+    color: black;
+    background-color: red;
+    display: none;
+}
+
+.ratingButton:focus {
+    background-color: white;
+}
+
+
+.footer button {
+    color:#131518 ;
+    background-color:#FC7614 ;
+    width: 279px;
+    padding-block: 14px;
+    margin-top:38px;
+    border-radius: 22.5px;
+    cursor: pointer;
+    margin-inline: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.72px;
+    letter-spacing: 1.8666666746139526px;
+    border: none;
+}
+
+.footer button:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.38px;
+    color: white;    
+    margin-top: 60px;
+}
+
+.hero p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #969FAD;
+}
+
+.secondPart {
+    display: none;
+    width: 327px;
+    padding: 34px 24px 37px 24px;
+    text-align: center;
+    background-color: #1f262f;
+    margin-inline: auto;
+    box-sizing: border-box;
+    margin-block: 154px;
+    border-radius: 22.5px;
+}
+
+.secondPart h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.38px;
+    color: white;
+}
+
+.secondPart p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #969FAD;
+}
+
+.secondPart h3 {
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #FC7614;
+    padding: 5px 12px;
+    background-color: #262E38;
+    display: inline-block;
+    border-radius: 22.5px;
+}
